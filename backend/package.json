@@ -4,7 +4,7 @@
   "description": "backend of blog application",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "dev": "node app.js",
     "watch": "nodemon --ext js,ejs --ignore public",
     "build": "npm i"
   },
