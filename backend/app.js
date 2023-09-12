@@ -37,9 +37,14 @@ app.use(rateLimiting({
 
 
 // Cors Policy
-app.use(cors({
-  origin: "http://localhost:3000"
-}))
+// app.use(cors({
+//   origin: "http://localhost:3000"
+// }))
+const corsOptions = {
+  origin: true,
+  credentials: true
+ }
+app.use(cors(corsOptions))
 
 // routes
 app.use("/api/auth", require("./routes/authRoute"))
