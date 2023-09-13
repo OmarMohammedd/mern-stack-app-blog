@@ -1,7 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/connectDB");
 const xss = require("xss-clean")
-const rateLimiting = require("express-rate-limit");
+// const rateLimiting = require("express-rate-limit");
 const helmet = require("helmet");
 const hpp = require("hpp");
 const { errorHandler, notFound } = require("./middlewares/error");
