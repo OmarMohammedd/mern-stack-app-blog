@@ -29,10 +29,10 @@ app.use(hpp());
 app.use(xss());
 
 // Rate Limiting == اي يوزر مينفعش يرسل اكتر من 200 ريكويس كل 10 دقايق
-app.use(rateLimiting({
-  windowMs: 10 * 60 * 1000, // 10 minutes
-  max:200,
-}));
+// app.use(rateLimiting({
+//   windowMs: 10 * 60 * 1000, // 10 minutes
+//   max:200,
+// }));
 
 
 
