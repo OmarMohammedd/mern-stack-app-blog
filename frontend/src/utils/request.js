@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const request = axios.create({
-    baseURL: "https://kind-gray-shark-veil.cyclic.app/"
+    baseURL: "https://successful-bee-purse.cyclic.app/"
 });
 
 
