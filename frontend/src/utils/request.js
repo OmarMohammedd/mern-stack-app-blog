@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const request = axios.create({
-    baseURL: "http://localhost:8000"
-  //  baseURL: "https://successful-bee-purse.cyclic.app/"
+    baseURL: "https://cute-lime-chinchilla-shoe.cyclic.cloud"
+   // baseURL: "http://localhost:8000"
 });
 
 
