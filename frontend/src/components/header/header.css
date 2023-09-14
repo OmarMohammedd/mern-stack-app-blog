@@ -29,9 +29,10 @@
 }
 
 .header-menu .icon {
-    font-size: 35px;
+     font-size: 27px;
     color: var(--white-color);
     cursor: pointer;
+    margin-top: 5px;
 }
 
 /* Navbar */
