@@ -1,17 +1,20 @@
 import { Link } from "react-router-dom"
+import { BsPencil } from "react-icons/bs"
+import { AiOutlineMenu } from "react-icons/ai"
+import { AiOutlineClose } from "react-icons/ai"
 
 const HeaderLeft = ({ toggle, setToggle }) => {
   return (
     <div className="header-left">
       <div className="header-logo">
          <Link to="/" style={{color: "#fff"}}><strong>BLOG</strong></Link>
-        <i className="bi bi-pencil"></i>
+         <BsPencil/>
       </div>
       <div onClick={() => setToggle((prev) => !prev)} className="header-menu">
         {toggle ? (
-          <i className="bi bi-x-lg"></i>
+          <AiOutlineClose className="icon"/>
         ) : (
-          <i className="bi bi-list"></i>
+          <AiOutlineMenu className="icon"/>
         )}
       </div>
     </div>
