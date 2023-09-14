@@ -28,7 +28,7 @@ const Register = () => {
 
     if(registerMessage) {
         swal({
-            title: registerMessage,
+            title: "You have been register in successfully. Go to log in",
             icon: "success"
         }).then(isOk => {
             if(isOk) {
@@ -36,7 +36,6 @@ const Register = () => {
             }
         })
     }
-
 
     return ( 
         <section className="form-container">

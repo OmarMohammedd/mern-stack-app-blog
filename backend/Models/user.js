@@ -106,13 +106,6 @@ function validateEmail(obj) {
   return schema.validate(obj);
 }
 
-// Validate New Password
-function validateNewPassword(obj) {
-  const schema = Joi.object({
-    password: passwordComplexity().required(),
-  });
-  return schema.validate(obj);
-}
 
 module.exports = {
   User,
@@ -120,5 +113,4 @@ module.exports = {
   validationLoginUser,
   validationUpdateUser,
   validateEmail,
-  validateNewPassword
 }

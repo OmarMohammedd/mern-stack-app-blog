@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const request = axios.create({
-    baseURL: "https://successful-bee-purse.cyclic.app/"
+    baseURL: "http://localhost:8000"
+  //  baseURL: "https://successful-bee-purse.cyclic.app/"
 });
 
 

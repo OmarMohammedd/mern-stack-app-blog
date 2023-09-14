@@ -56,8 +56,8 @@ const Login = () => {
                 </button>
             </form>
             <div className="form-footer">
-                Did you forgot your password ? 
-                <Link to="/forgot-password">Frogot Password</Link>
+              To create an account  
+                <Link to="/register"> click here </Link>
             </div>
         </section>
      );
