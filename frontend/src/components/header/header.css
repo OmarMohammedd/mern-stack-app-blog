@@ -28,8 +28,8 @@
     display: none;
 }
 
-.header-menu i {
-    font-size: 40px;
+.header-menu .icon {
+    font-size: 35px;
     color: var(--white-color);
     cursor: pointer;
 }
