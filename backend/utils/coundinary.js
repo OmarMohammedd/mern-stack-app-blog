@@ -6,6 +6,7 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+
 // Cloudinary Upload Image
 const cloudinaryUploadImage = async (fileToUpload) => {
   try {
