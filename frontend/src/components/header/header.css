@@ -28,10 +28,11 @@
     display: none;
 }
 
-.header-menu i {
-    font-size: 40px;
+.header-menu .icon {
+    font-size: 30px;
     color: var(--white-color);
     cursor: pointer;
+    margin-top: 5px;
 }
 
 /* Navbar */

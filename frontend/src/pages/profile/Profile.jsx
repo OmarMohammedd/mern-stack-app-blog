@@ -13,6 +13,8 @@ import {
 import PostItem from "../../components/posts/PostItem";
 import { Oval } from "react-loader-spinner";
 import { logoutUser } from "../../redux/apiCalls/authApiCall";
+import { BsFillCameraFill } from "react-icons/bs"
+
 
 const Profile = () => {
   const dispatch = useDispatch();
@@ -95,8 +97,7 @@ const Profile = () => {
               <abbr title="choose profile photo">
                 <label
                   htmlFor="file"
-                  className="bi bi-camera-fill upload-profile-photo-icon"
-                ></label>
+                ><BsFillCameraFill className="upload-profile-photo-icon"/></label>
               </abbr>
               <input
                 style={{ display: "none" }}

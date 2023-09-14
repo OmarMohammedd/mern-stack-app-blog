@@ -181,3 +181,9 @@
         width: 100%;
     }
 }
+
+.icons {
+  padding-right: 5px;
+  font-size: 30px;
+  margin-bottom: -5px;
+}

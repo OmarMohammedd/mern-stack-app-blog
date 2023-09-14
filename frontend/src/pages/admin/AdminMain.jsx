@@ -6,6 +6,10 @@ import { fetchCategories } from "../../redux/apiCalls/categoryApiCall";
 import { getUsersCount } from "../../redux/apiCalls/profileApiCall";
 import { getPostsCount } from "../../redux/apiCalls/postApiCall";
 import { fetchAllComments } from "../../redux/apiCalls/commentApiCall";
+import { BsFillPersonFill } from "react-icons/bs"
+import { BsFillFilePostFill } from "react-icons/bs"
+import { BsFillTagFill } from "react-icons/bs"
+import { BsFillChatLeftTextFill } from "react-icons/bs"
 
 const AdminMain = () => {
     const dispatch = useDispatch();
@@ -37,7 +41,8 @@ const AdminMain = () => {
                            See all users
                         </Link>
                         <div className="admin-card-icon">
-                            <i className="bi bi-person"></i>
+                            {/* <i className="bi bi-person"></i> */}
+                            <BsFillPersonFill/>
                         </div>
                     </div>
                 </div>
@@ -54,7 +59,8 @@ const AdminMain = () => {
                            See all posts
                         </Link>
                         <div className="admin-card-icon">
-                            <i className="bi bi-file-post"></i>
+                            {/* <i className="bi bi-file-post"></i> */}
+                            <BsFillFilePostFill/>
                         </div>
                     </div>
                 </div>
@@ -71,7 +77,8 @@ const AdminMain = () => {
                            See all categories
                         </Link>
                         <div className="admin-card-icon">
-                            <i className="bi bi-tag-fill"></i>
+                            {/* <i className="bi bi-tag-fill"></i> */}
+                            <BsFillTagFill/>
                         </div>
                     </div>
                 </div>
@@ -88,7 +95,8 @@ const AdminMain = () => {
                            See all comments
                         </Link>
                         <div className="admin-card-icon">
-                            <i className="bi bi-chat-left-text"></i>
+                            {/* <i className="bi bi-chat-left-text"></i> */}
+                            <BsFillChatLeftTextFill/>
                         </div>
                     </div>
                 </div>
