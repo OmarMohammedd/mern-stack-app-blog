@@ -37,14 +37,7 @@ app.use(xss());
 
 
 // Cors Policy
-// app.use(cors({
-//   origin: "http://localhost:3000"
-// }))
-const corsOptions = {
-  origin: true,
-  credentials: true
- }
-app.use(cors(corsOptions))
+app.use(cors())
 
 
 // routes
